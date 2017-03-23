@@ -1,0 +1,445 @@
+Evaluating RMSE, MAE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.9511
+MAE:  0.7475
+------------
+Fold 2
+RMSE: 0.9404
+MAE:  0.7439
+------------
+Fold 3
+RMSE: 0.9398
+MAE:  0.7403
+------------
+------------
+Mean RMSE: 0.9438
+Mean MAE : 0.7439
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7475  0.7439  0.7403  0.7439  
+RMSE    0.9511  0.9404  0.9398  0.9438  
+Evaluating RMSE, MAE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.9597
+MAE:  0.7558
+------------
+Fold 2
+RMSE: 0.9513
+MAE:  0.7540
+------------
+Fold 3
+RMSE: 0.9495
+MAE:  0.7488
+------------
+------------
+Mean RMSE: 0.9535
+Mean MAE : 0.7529
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7558  0.7540  0.7488  0.7529  
+RMSE    0.9597  0.9513  0.9495  0.9535  
+Evaluating RMSE, MAE of algorithm NMF.
+
+------------
+Fold 1
+RMSE: 0.9758
+MAE:  0.7644
+------------
+Fold 2
+RMSE: 0.9748
+MAE:  0.7681
+------------
+Fold 3
+RMSE: 0.9715
+MAE:  0.7624
+------------
+------------
+Mean RMSE: 0.9740
+Mean MAE : 0.7650
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7644  0.7681  0.7624  0.7650  
+RMSE    0.9758  0.9748  0.9715  0.9740  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9994
+MAE:  0.7882
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9854
+MAE:  0.7816
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9844
+MAE:  0.7774
+------------
+------------
+Mean RMSE: 0.9897
+Mean MAE : 0.7824
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7882  0.7816  0.7774  0.7824  
+RMSE    0.9994  0.9854  0.9844  0.9897  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9933
+MAE:  0.7838
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9811
+MAE:  0.7794
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9824
+MAE:  0.7791
+------------
+------------
+Mean RMSE: 0.9856
+Mean MAE : 0.7808
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7838  0.7794  0.7791  0.7808  
+RMSE    0.9933  0.9811  0.9824  0.9856  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9994
+MAE:  0.7882
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9854
+MAE:  0.7816
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9844
+MAE:  0.7774
+------------
+------------
+Mean RMSE: 0.9897
+Mean MAE : 0.7824
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7882  0.7816  0.7774  0.7824  
+RMSE    0.9994  0.9854  0.9844  0.9897  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0322
+MAE:  0.8149
+------------
+Fold 2
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0179
+MAE:  0.8085
+------------
+Fold 3
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0178
+MAE:  0.8053
+------------
+------------
+Mean RMSE: 1.0226
+Mean MAE : 0.8096
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.8149  0.8085  0.8053  0.8096  
+RMSE    1.0322  1.0179  1.0178  1.0226  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0310
+MAE:  0.8176
+------------
+Fold 2
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0156
+MAE:  0.8088
+------------
+Fold 3
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0168
+MAE:  0.8050
+------------
+------------
+Mean RMSE: 1.0211
+Mean MAE : 0.8105
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.8176  0.8088  0.8050  0.8105  
+RMSE    1.0310  1.0156  1.0168  1.0211  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9933
+MAE:  0.7838
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9811
+MAE:  0.7794
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9824
+MAE:  0.7791
+------------
+------------
+Mean RMSE: 0.9856
+Mean MAE : 0.7808
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.7838  0.7794  0.7791  0.7808  
+RMSE    0.9933  0.9811  0.9824  0.9856  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0421
+MAE:  0.8241
+------------
+Fold 2
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0324
+MAE:  0.8213
+------------
+Fold 3
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0317
+MAE:  0.8203
+------------
+------------
+Mean RMSE: 1.0354
+Mean MAE : 0.8219
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.8241  0.8213  0.8203  0.8219  
+RMSE    1.0421  1.0324  1.0317  1.0354  
+Evaluating RMSE, MAE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0525
+MAE:  0.8412
+------------
+Fold 2
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0444
+MAE:  0.8365
+------------
+Fold 3
+Computing the pearson similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0452
+MAE:  0.8368
+------------
+------------
+Mean RMSE: 1.0474
+Mean MAE : 0.8382
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+MAE     0.8412  0.8365  0.8368  0.8382  
+RMSE    1.0525  1.0444  1.0452  1.0474  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0114
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9951
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9964
+------------
+------------
+Mean RMSE: 1.0010
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    1.0114  0.9951  0.9964  1.0010  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9981
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9834
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9833
+------------
+------------
+Mean RMSE: 0.9883
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    0.9981  0.9834  0.9833  0.9883  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9978
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9838
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9828
+------------
+------------
+Mean RMSE: 0.9881
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    0.9978  0.9838  0.9828  0.9881  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0329
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0191
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0222
+------------
+------------
+Mean RMSE: 1.0248
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    1.0329  1.0191  1.0222  1.0248  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 1.0033
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9897
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9923
+------------
+------------
+Mean RMSE: 0.9951
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    1.0033  0.9897  0.9923  0.9951  
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9948
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9822
+------------
+Fold 3
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9842
+------------
+------------
+Mean RMSE: 0.9871
+------------
+------------
+        Fold 1  Fold 2  Fold 3  Mean    
+RMSE    0.9948  0.9822  0.9842  0.9871  
