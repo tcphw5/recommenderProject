@@ -47,7 +47,7 @@ for alg in algs:
     
     print_perf(perf)
 
-"""
+'''
 part 13 of HW4.pdf
 
 """
@@ -71,24 +71,25 @@ for alg in CFalgs:
     meanscf['rmse'].append(sum(perf['rmse'])/len(perf['rmse']))
     
     print_perf(perf)
-    
+
 
 """
 part 14 of HW4.pdf
 
-"""
-CFKmodalgs = [KNNBasic(k=10, sim_options={'user_based': True, 'name':'MSD'}), KNNBasic(k=20, sim_options={'user_based': True,'name':'MSD'}), KNNBasic(k=30, sim_options={'user_based': True,'name':'MSD'}), KNNBasic(k=10, sim_options={'user_based': False,'name':'MSD'}), KNNBasic(k=20, sim_options={'user_based': False, 'name':'MSD'}), KNNBasic(k=30, sim_options={'user_based': False,'name':'MSD'})]
-fold1cfk = {'rmse':[]}
-fold2cfk = {'rmse':[]}
-fold3cfk = {'rmse':[]}
-meanscfk = {'rmse':[]}
+'''
 
-for alg in CFKmodalgs:
-    perf = evaluate(alg, data, measures=['RMSE'])
+'''
+#CFKmodalgs = [KNNBasic(k=10, sim_options={'user_based': True, 'name':'MSD'}), KNNBasic(k=20, sim_options={'user_based': True,'name':'MSD'}), KNNBasic(k=30, sim_options={'user_based': True,'name':'MSD'}), KNNBasic(k=10, sim_options={'user_based': False,'name':'MSD'}), KNNBasic(k=20, sim_options={'user_based': False, 'name':'MSD'}), KNNBasic(k=30, sim_options={'user_based': False,'name':'MSD'})]
+
+for kval in range(5,55,5):
+    currentUBALG = KNNBasic(k=kval, sim_options={'user_based': True, 'name':'MSD'})
+    currentIBALG = KNNBasic(k=kval, sim_options={'user_based': False, 'name':'MSD'})
     
-    fold1cfk['rmse'].append(perf['rmse'][0])
-    fold2cfk['rmse'].append(perf['rmse'][1])
-    fold3cfk['rmse'].append(perf['rmse'][2])
-    meanscfk['rmse'].append(sum(perf['rmse'])/len(perf['rmse']))
+
+    perf = evaluate(currentIBALG, data, measures=['RMSE'])
+    perf2 = evaluate(currentUBALG, data, measures=['RMSE'])
+    
     
     print_perf(perf)
+    print_perf(perf2)
+'''
